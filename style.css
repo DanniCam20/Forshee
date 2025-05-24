@@ -1,169 +1,99 @@
-body{
-
-    background: linear-gradient(to right,#FF90BB, #FFC1DA);
-    text-align: center;
-    
-}
-.title{
-
-color: rgb(0, 0, 0);
-text-align: center;
-justify-content: center;
-align-items: center;
-font-size: 100px;
-background-color: #F8F8E1;
-border-radius: 100px;
-margin: 40px;
-padding: 1%;
-border-color: #8ACCD5;
-
+body {
+  background: linear-gradient(to right, #FF90BB, #FFC1DA);
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.title{
-
+.title {
+  color: black;
   font-family: "Spicy Rice", serif;
   font-weight: 500;
-  font-style: normal;
-  font-size: 100px;
+  font-size: calc(2rem + 3vw);
+  background-color: #F8F8E1;
+  border-radius: 100px;
+  margin: 4vw;
+  padding: 2vw;
+  animation: parpadear 1s infinite;
 }
 
-   .title {
-      font-size: 2em;
-      animation: parpadear 1s infinite;
-    }
-
-    @keyframes parpadear {
-      0% { color: black; }
-      50% { color: #ff90bb; }
-      100% { color: black; }
-    }
-
-
-.frase{
-
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: black;
-    font-size: 30px;
+@keyframes parpadear {
+  0% { color: black; }
+  50% { color: #ff90bb; }
+  100% { color: black; }
 }
-
 
 .frase {
-  
   font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-
+  font-size: calc(1rem + 1vw);
+  color: black;
+  margin: 2.5vw;
 }
 
-
-
 .diplomas {
-  width: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  margin: 40px 0;
+  gap: 2.5vw;
+  margin: 4vw 0;
 }
 
-
-
-.card{
-
-  display: inline-block
-
-}
-
-.card{
-
-  padding: 40px;
-  border-radius: 40px;
+.card {
+  padding: 2vw;
+  border-radius: 30px;
   background-color: #F8F8E1;
-  border-color: #8ACCD5;
-}
-
-.boton{
-background-color: #8ACCD5;
-border-radius: 20px;
-border: none;
-padding: 10px 20px;
-
+  border: 2px solid #8ACCD5;
+  max-width: 80vw;
+  box-sizing: border-box;
 }
 
 .img {
-
   width: auto;
-  height: 300px;
-  display: flex;
-  justify-content: center; 
-  border-radius: 15px;
-
-}
- .motivo{
-  font-size: 20px;
- }
-
-
- .subtitulo {
-  font-size: 24px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  color: black;
-}
-
-
-.subtitulo {
-font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.subtitulo{
-  font-size: 30px;
-}
-
-.fotos{
-  
-  width: auto;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  border-radius: 15px;
-  gap: 40px;
-  flex-wrap: wrap;
-;
-
-}
-
-h1{
-
-  font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.video{
-
- 
-  width: 80vw;  /* 80% del ancho de la pantalla */
-  max-width: 800px; /* no crecer más allá de esto */
-  height: auto; /* mantener proporciones */
+  max-height: 25vh;
+  border-radius: 12px;
   display: block;
   margin: 0 auto;
-
-
 }
 
-.teamo{
-
-  font-size: 200px;
+.motivo {
+  font-size: calc(0.9rem + 0.5vw);
 }
+
+.subtitulo {
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: calc(1.2rem + 0.6vw);
+  color: black;
+  margin: 3vw 0 2vw 0;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+  margin-bottom: 3vw;
+}
+
+h1 {
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: calc(1.5rem + 1vw);
+}
+
+.video {
+  width: 90vw;
+  max-width: 720px;
+  height: auto;
+  display: block;
+  margin: 0 auto 4vw auto;
+  border-radius: 12px;
+}
+
+.teamo {
+  font-size: calc(2.5rem + 3.5vw);
+  word-break: break-word;
+  padding: 1vw;
+}
+
 
 
 
