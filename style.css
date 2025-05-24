@@ -1,0 +1,174 @@
+body{
+
+    background: linear-gradient(to right,#FF90BB, #FFC1DA);
+    text-align: center;
+    
+}
+.title{
+
+color: rgb(0, 0, 0);
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 100px;
+background-color: #F8F8E1;
+border-radius: 100px;
+margin: 40px;
+padding: 1%;
+border-color: #8ACCD5;
+
+}
+
+.title{
+
+  font-family: "Spicy Rice", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+}
+
+   .title {
+      font-size: 2em;
+      animation: parpadear 1s infinite;
+    }
+
+    @keyframes parpadear {
+      0% { color: black; }
+      50% { color: #ff90bb; }
+      100% { color: black; }
+    }
+
+
+.frase{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+
+.frase {
+  
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+
+.diplomas {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+
+
+.card{
+
+  display: inline-block
+
+}
+
+.card{
+
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #F8F8E1;
+  border-color: #8ACCD5;
+}
+
+.boton{
+background-color: #8ACCD5;
+border-radius: 20px;
+border: none;
+padding: 10px 20px;
+
+}
+
+.img {
+
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center; 
+  border-radius: 15px;
+
+}
+ .motivo{
+  font-size: 20px;
+ }
+
+
+ .subtitulo {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+.subtitulo {
+font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.subtitulo{
+  font-size: 30px;
+}
+
+.fotos{
+  
+  width: auto;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 15px;
+  gap: 40px;
+  flex-wrap: wrap;
+;
+
+}
+
+h1{
+
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.video{
+
+ 
+  width: 80vw;  /* 80% del ancho de la pantalla */
+  max-width: 800px; /* no crecer más allá de esto */
+  height: auto; /* mantener proporciones */
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+.teamo{
+
+  font-size: 200px;
+}
+
+
+
+
+
+ 
+
+  
